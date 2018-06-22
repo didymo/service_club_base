@@ -97,7 +97,7 @@
         "drupal/geocoder": "^2.0",
         "drupal/geolocation": "^1.11",
         "drupal/admin_toolbar": "^1.24",
-        "drupal/calendar": "^1.x-dev",
+        "drupal/calendar": "1.x-dev",
         "drupal/ctools": "^3.0",
         "drupal/dynamic_entity_reference": "^1.5",
         "drupal/front": "^1.0",
