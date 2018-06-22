@@ -95,7 +95,6 @@
         "drupal/redirect": "^1.2",
         "drupal/scheduler": "^1.0",
         "drupal/simplify": "^1.0",
-        "didymo/service_club_install_profile": "*",
         "didymo/service_club_profile": "*",
         "didymo/service_club_asset": "*",
         "didymo/service_club_event": "*"
