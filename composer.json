@@ -33,19 +33,6 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/service_club_install_profile",
-                "version": "8.0.0",
-                "type": "drupal-profile",
-                "source": {
-                    "url": "https://github.com/didymo/service_club_install_profile.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "didymo/service_club_profile",
                 "version": "8.0.0",
                 "type": "drupal-module",
