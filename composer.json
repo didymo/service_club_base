@@ -33,6 +33,19 @@
         {
             "type": "package",
             "package": {
+                "name": "didymo/service_club_install_profile",
+                "version": "8.0.0",
+                "type": "drupal-profile",
+                "source": {
+                    "url": "https://github.com/didymo/service_club_install_profile.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
                 "name": "didymo/service_club_profile",
                 "version": "8.0.0",
                 "type": "drupal-module",
@@ -95,6 +108,7 @@
         "drupal/redirect": "^1.2",
         "drupal/scheduler": "^1.0",
         "drupal/simplify": "^1.0",
+        "didymo/service_club_install_profile": "*",
         "didymo/service_club_profile": "*",
         "didymo/service_club_asset": "*",
         "didymo/service_club_event": "*"
