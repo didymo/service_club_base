@@ -74,7 +74,7 @@
             "package": {
                 "name": "didymo/service_club_event",
                 "version": "8.0.0",
-                "type": "",
+                "type": "drupal-module",
                 "source": {
                     "url": "https://github.com/didymo/service_club_event.git",
                     "type": "git",
