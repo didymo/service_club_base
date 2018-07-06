@@ -1,9 +1,8 @@
-# Composer template for Drupal projects
+# Composer template for Service Club Managment Systems
 
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
+This project template provides a starter kit for managing your Service Club site with [Composer](https://getcomposer.org/).
 
-This project template provides a starter kit for managing your site
-dependencies with [Composer](https://getcomposer.org/).
+It will automatically download the required dependancies and modules.
 
 If you want to know how to use it as replacement for
 [Drush Make](https://github.com/drush-ops/drush/blob/8.x/docs/make.md) visit
