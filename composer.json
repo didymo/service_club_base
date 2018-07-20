@@ -94,6 +94,19 @@
                     "reference": "master"
                 }
             }
+        },
+	{
+            "type": "package",
+            "package": {
+                "name": "didymo/service_club_theme",
+                "version": "8.0.0",
+                "type": "drupal-theme",
+                "source": {
+                    "url": "https://github.com/didymo/service_club_theme",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
@@ -126,7 +139,9 @@
         "didymo/service_club_profile": "*",
         "didymo/service_club_asset": "*",
         "didymo/service_club_event": "*",
-        "didymo/service_club_tmp": "*"
+        "didymo/service_club_tmp": "*",
+	"didymo/service_club_theme": "*",
+	"drupal/bootstrap":"^3.11"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.5.3"
