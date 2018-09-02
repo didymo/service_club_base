@@ -121,7 +121,7 @@
         "webmozart/path-util": "^2.3",
         "drupal/address": "~1.0",
         "drupal/geocoder": "^2.0",
-	"drupal/geofield": "^1.0",
+        "drupal/geofield": "^1.0",
         "drupal/geolocation": "^1.11",
         "drupal/admin_toolbar": "^1.24",
         "drupal/calendar": "1.x-dev",
