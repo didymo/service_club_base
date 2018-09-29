@@ -164,8 +164,7 @@
     },
     "autoload": {
         "classmap": [
-            "scripts/composer/ScriptHandler.php",
-	    "scripts/composer/keyScript.php"
+            "scripts/composer/ScriptHandler.php"
         ],
         "files": ["load.environment.php"]
     },
