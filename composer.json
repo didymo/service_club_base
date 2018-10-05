@@ -172,18 +172,18 @@
     "scripts": {
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion",
+            "DrupalProject\\composer\\KeyGeneration::createKey"
         ],
         "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion",
+            "DrupalProject\\composer\\KeyGeneration::createKey"
         ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "DrupalProject\\composer\\KeyGeneration::createKey"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-            "DrupalProject\\composer\\KeyGeneration::createKey"
+            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
     "extra": {
