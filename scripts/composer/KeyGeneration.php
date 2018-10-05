@@ -16,6 +16,6 @@ class KeyGeneration
         $bytes = random_bytes(64);
         $saltVal=bin2hex($bytes);
         $hashVal = hash('sha512', $saltVal);
-        file_put_contents("keys/JWTkey.key", $hashVal);
+        file_put_contents("keys/keyFile.key", $hashVal);
     }
 }
