@@ -108,7 +108,7 @@
                 }
             }
         },
-	{
+	 {
             "type": "package",
             "package": {
                 "name": "didymo/service_club_theme",
